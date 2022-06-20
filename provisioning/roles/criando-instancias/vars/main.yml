@@ -1,0 +1,9 @@
+---
+# vars file for criando-instancias
+instance_type: t2.micro
+sec_group_name: giropops
+image: ami-08ae71fd7f1449df1
+keypair: ansible-class
+region: sa-east-1
+count: 3
+profile: giropops
